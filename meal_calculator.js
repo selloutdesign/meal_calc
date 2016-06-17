@@ -33,12 +33,10 @@
 				console.log(diners[diner].name);
 				console.log(diners[diner].meal.mealCost());
 			};
-			return "yea";
+			return "Thanks for choosing Josh's Diner";
 		}
 
 	};
-
-	// Using the Object.create Method
 
 	// Diners have a name and meal
 	function Diner(name, meal){
@@ -65,15 +63,13 @@
 		};
 	};
 
-
-	// Using constructor function
-	
+	// dishes have name and a price
 	function Dish(name, price){
 		this.name = name;
 		this.price = price;
 	};
 
-
+	// Using the Object.create Method
 	var harrisonParty = Object.create(Dinner);
 
 
